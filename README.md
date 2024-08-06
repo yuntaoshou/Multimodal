@@ -40,6 +40,15 @@ cd ./ffmpeg-git-amd64-static
 ```bash
 python /MELD/split_audio_from_video.py
 ```
+Download the pre-trained audio feature extractor wave2vec:
+```bash
+wegt https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_large.pt
+```
+
+```bash
+python wav2vec_embedding.py
+```
+
 
 ## IEMOCAP dataset download
 
