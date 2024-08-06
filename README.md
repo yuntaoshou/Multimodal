@@ -16,3 +16,9 @@ Next, you need to install the SDK on your python enviroment.
 cd CMU-MultimodalSDK
 pip install .
 ```
+
+## MELD dataset download
+
+```bash
+wget http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz
+```
