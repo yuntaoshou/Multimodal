@@ -22,3 +22,11 @@ pip install .
 ```bash
 wget http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz
 ```
+
+## IEMOCAP dataset download
+
+To obtain the IEMOCAP data you just need to fill out an electronic release form below.
+
+```bash
+https://sail.usc.edu/iemocap/iemocap_release.htm
+```
