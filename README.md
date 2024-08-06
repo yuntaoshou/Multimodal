@@ -36,6 +36,10 @@ cd ./ffmpeg-git-amd64-static
 ./ffmpeg
 ```
 
+## Extracting audio data
+```bash
+python /MELD/split_audio_from_video.py
+```
 
 ## IEMOCAP dataset download
 
