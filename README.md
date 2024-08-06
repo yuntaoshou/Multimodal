@@ -19,9 +19,21 @@ pip install .
 
 ## MELD dataset download
 
+Since the MELD dataset does not provide audio data, we can use ffmpeg to manually obtain the audio data.
+
 ```bash
 wget http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz
 ```
+
+The first step is to download the ffmpeg:
+``` bash
+wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-i686-static.tar.xz
+xz -d ffmpeg-git-amd64-static.tar.xz
+tar -xvf ffmpeg-git-amd64-static.tar
+cd ./ffmpeg-git-amd64-static
+./ffmpeg
+```
+
 
 ## IEMOCAP dataset download
 
