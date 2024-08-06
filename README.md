@@ -1,6 +1,7 @@
 # Multimodal
 
-#CUMMOSI dataset download
+# CUMMOSI dataset download
+
 ## 🚀 Installation
 
 The first step is to download the SDK:
