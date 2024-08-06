@@ -1,6 +1,6 @@
 # Multimodal
 
-# CUMMOSI dataset download
+## CUMMOSI dataset download
 
 ## 🚀 Installation
 
