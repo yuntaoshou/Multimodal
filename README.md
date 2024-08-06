@@ -37,6 +37,8 @@ cd ./ffmpeg-git-amd64-static
 ```
 
 ## Extracting audio data
+
+First you need to convert the video data into audio data:
 ```bash
 python /MELD/split_audio_from_video.py
 ```
@@ -45,6 +47,7 @@ Download the pre-trained audio feature extractor wave2vec:
 wegt https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_large.pt
 ```
 
+Use pretrained wave2vec to extract audio features:
 ```bash
 python wav2vec_embedding.py
 ```
